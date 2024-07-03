@@ -1,0 +1,9 @@
+services:
+  bull-board:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3232:3232'
+    env_file:
+      - .env
