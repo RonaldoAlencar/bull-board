@@ -1,5 +1,6 @@
 services:
   bull-board:
+    container_name: bull-board
     build:
       context: .
       dockerfile: Dockerfile
